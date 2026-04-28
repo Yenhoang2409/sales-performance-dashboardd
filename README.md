@@ -1,6 +1,6 @@
 # Sales Performance Dashboard
 
-> **Dự án phân tích dữ liệu bán hàng** 
+ **Dự án phân tích dữ liệu bán hàng** 
 
 ---
 
@@ -16,7 +16,6 @@
 ##  Dataset
 
 - **Nguồn:** [Superstore Dataset Final — Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
-- **Dữ liệu thật** từ Kaggle, được tải trực tiếp qua `kagglehub`
 - **Kích thước:** 9,994 dòng × 21 cột
 - **Thời gian:** 2014 — 2018
 - **Các trường chính:**
@@ -63,8 +62,6 @@ sales-performance-dashboard/
 │   ├── discount_impact.png         # Tác động của giảm giá
 │   ├── segment_analysis.png        # Phân tích phân khúc khách hàng
 │   └── top_states_profit.png     # Top 10 bang lợi nhuận cao nhất
-├── powerbi/
-│   └── (Dashboard file .pbix nếu có)
 ├── README.md
 └── requirements.txt
 ```
@@ -268,7 +265,7 @@ Code trong repository này được chia sẻ dưới giấy phép MIT.
 ## Liên hệ
 
 - **Author:** Hoàng Yến
-- **Repository:*  https://github.com/Yenhoang2409/sales-performance-dashboardd.git *
+- **Repository:**  *https://github.com/Yenhoang2409/sales-performance-dashboardd.git *
 - **LinkedIn:** *www.linkedin.com/in/hoàng-yến-9a972b391*
 
 ---
