@@ -1,6 +1,6 @@
--- ============================================
+
 -- SQL ANALYSIS: SUPERSTORE SALES PERFORMANCE
--- ============================================
+
 
 -- Doanh thu theo danh mục sản phẩm
 SELECT 

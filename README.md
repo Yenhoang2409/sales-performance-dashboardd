@@ -1,10 +1,10 @@
-# 📊 Sales Performance Dashboard
+# Sales Performance Dashboard
 
-> **Dự án phân tích dữ liệu bán hàng** — Thực hành Data Analytics từ Data Collection đến Visualization & Insights.
+> **Dự án phân tích dữ liệu bán hàng** 
 
 ---
 
-## 🎯 Mục tiêu dự án
+##  Mục tiêu dự án
 
 1. Phân tích doanh thu, lợi nhuận theo thời gian, khu vực, danh mục sản phẩm
 2. Xác định top/bottom performing products và regions
@@ -13,7 +13,7 @@
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 - **Nguồn:** [Superstore Dataset Final — Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 - **Dữ liệu thật** từ Kaggle, được tải trực tiếp qua `kagglehub`
@@ -27,7 +27,7 @@
 
 ---
 
-## 🏗️ Kiến trúc / Pipeline
+## Kiến trúc 
 
 ```
 ┌─────────────────┐     ┌──────────────────┐     ┌───────────────┐
@@ -44,7 +44,7 @@
 
 ---
 
-## 📁 Cấu trúc thư mục
+##  Cấu trúc thư mục
 
 ```
 sales-performance-dashboard/
@@ -71,7 +71,7 @@ sales-performance-dashboard/
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+##  Công nghệ sử dụng
 
 | Công cụ | Mục đích |
 |---------|----------|
@@ -85,13 +85,13 @@ sales-performance-dashboard/
 
 ---
 
-## 🚀 Hướng dẫn cài đặt & chạy
+##  Hướng dẫn cài đặt & chạy
 
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/hoangyen/sales-performance-dashboard.git
-cd sales-performance-dashboard
+git clone https://github.com/Yenhoang2409/sales-performance-dashboardd.git
+cd sales-performance-dashboardd
 ```
 
 ### 2. Cài đặt dependencies
@@ -108,7 +108,7 @@ jupyter notebook notebooks/EDA_Superstore.ipynb
 
 ---
 
-## 🔍 Quy trình phân tích chi tiết
+##  Quy trình phân tích chi tiết
 
 ### Bước 1: Thu thập dữ liệu (Data Collection)
 
@@ -175,7 +175,7 @@ ORDER BY Month;
 
 ---
 
-## 📈 Key Findings & Insights
+##  Key Findings & Insights
 
 ### 1. Office Supplies dẫn đầu doanh thu với Profit Margin tốt nhất
 - **Office Supplies:** $283K doanh thu (36.8%), Profit Margin **16.6%**
@@ -188,19 +188,19 @@ ORDER BY Month;
 - **Washington:** $7.0K
 - 3 bang này cùng đóng góp **> 45%** tổng lợi nhuận toàn quốc
 
-### 3. 🔴 Discount cao (>20%) = Profit âm
+### 3.  Discount cao (>20%) = Profit âm
 - **0% discount:** Profit Margin **34.3%**
 - **1–20% discount:** Profit Margin **18.1%**
-- **21–40% discount:** Profit Margin **-10.9%** ⚠️
-- **41–60% discount:** Profit Margin **-55.8%** 🚨
-- **>60% discount:** Profit Margin **-113.7%** 🚨🚨
+- **21–40% discount:** Profit Margin **-10.9%** 
+- **41–60% discount:** Profit Margin **-55.8%** 
+- **>60% discount:** Profit Margin **-113.7%** 
 
 **Insight:** Chính sách giảm giá mạnh đang phá hủy lợi nhuận. Cần giới hạn discount tối đa 20%.
 
 ### 4. Consumer segment chiếm đa số doanh thu nhưng không phải margin cao nhất
 - **Consumer:** 53.2% doanh thu, Profit Margin **14.5%**
 - **Corporate:** 29.4% doanh thu, Profit Margin **15.4%**
-- **Home Office:** 17.3% doanh thu, Profit Margin **16.8%** ⭐ cao nhất
+- **Home Office:** 17.3% doanh thu, Profit Margin **16.8%** cao nhất
 
 ### 5. West Region dẫn đầu toàn diện
 - **West:** $295K doanh thu | $38.6K lợi nhuận
@@ -210,19 +210,19 @@ ORDER BY Month;
 
 ---
 
-## 💡 Recommendations (Đề xuất hành động)
+##  Recommendations (Đề xuất hành động)
 
 | Priority | Action | Expected Impact |
 |----------|--------|-----------------|
-| 🔴 High | **Giới hạn discount ≤ 20%** | Tăng profit margin toàn công ty |
-| 🔴 High | **Tối ưu Furniture category** | Cải thiện margin thấp nhất nhóm |
-| 🟡 Medium | **Mở rộng Office Supplies** | Tận dụng category có margin tốt nhất |
-| 🟡 Medium | **Tăng marketing cho Home Office** | Khai thác segment có margin cao nhất |
-| 🟢 Low | **Cải thiện Central Region** | Điều tra nguyên nhân lợi nhuận thấp |
+| High | **Giới hạn discount ≤ 20%** | Tăng profit margin toàn công ty |
+| High | **Tối ưu Furniture category** | Cải thiện margin thấp nhất nhóm |
+| Medium | **Mở rộng Office Supplies** | Tận dụng category có margin tốt nhất |
+| Medium | **Tăng marketing cho Home Office** | Khai thác segment có margin cao nhất |
+| Low | **Cải thiện Central Region** | Điều tra nguyên nhân lợi nhuận thấp |
 
 ---
 
-## 🖼️ Demo Hình ảnh
+## Demo Hình ảnh
 
 ### Doanh thu theo danh mục
 ![Sales by Category](images/sales_by_category.png)
@@ -247,30 +247,30 @@ ORDER BY Month;
 
 ---
 
-## 📚 Kiến thức áp dụng
+## Kiến thức áp dụng
 
 | Cấp độ | Nội dung | Trạng thái |
 |--------|----------|------------|
-| **Descriptive** | Mô tả dữ liệu (mean, median, distribution) | ✅ Hoàn thành |
-| **Diagnostic** | Phân tích nguyên nhân (discount vs profit, regional gap) | ✅ Hoàn thành |
-| **Predictive** | Dự đoán xu hướng (time series trend) | 🔶 Cơ bản |
-| **Prescriptive** | Đề xuất hành động (recommendations) | ✅ Hoàn thành |
+| **Descriptive** | Mô tả dữ liệu (mean, median, distribution) |  Hoàn thành |
+| **Diagnostic** | Phân tích nguyên nhân (discount vs profit, regional gap) | Hoàn thành |
+| **Predictive** | Dự đoán xu hướng (time series trend) | Cơ bản |
+| **Prescriptive** | Đề xuất hành động (recommendations) | Hoàn thành |
 
 ---
 
-## 📝 License
+## License
 
 Dataset được sử dụng theo [Kaggle Dataset License](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final).
 Code trong repository này được chia sẻ dưới giấy phép MIT.
 
 ---
 
-## 🤝 Liên hệ
+## Liên hệ
 
-- **Author:** hoangyen
-- **Repository:** [github.com/hoangyen/sales-performance-dashboard](https://github.com/hoangyen/sales-performance-dashboard)
-- **LinkedIn:** *(thêm link của bạn)*
+- **Author:** Hoàng Yến
+- **Repository:*  https://github.com/Yenhoang2409/sales-performance-dashboardd.git *
+- **LinkedIn:** *www.linkedin.com/in/hoàng-yến-9a972b391*
 
 ---
 
-> *"Dữ liệu là tài nguyên mới của thế kỷ 21."* — McKinsey Global Institute
+
